@@ -30,3 +30,9 @@
     @apply p-2 border bg-gradient-to-r from-primary-200 to-primary-100 text-white rounded-md;
   }
 }
+
+@layer utilities {
+  .container {
+    @apply w-full max-w-6xl mx-auto px-4;
+  }
+}
