@@ -1,7 +1,13 @@
 import React from 'react';
 
+import Navbar from './components/Navbar';
+
 const App = () => {
-  return <div className='text-red-500'>App</div>;
+  return (
+    <div className='h-screen bg-red-300'>
+      <Navbar />
+    </div>
+  );
 };
 
 export default App;
