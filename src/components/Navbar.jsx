@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const Navbar = () => {
-  const [navIsShown, setnavIsShown] = useState(true);
+  const [navIsShown, setnavIsShown] = useState(false);
   const toggleNavIsShown = () => {
     setnavIsShown((navIsShown) => !navIsShown);
   };
