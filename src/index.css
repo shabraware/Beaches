@@ -20,6 +20,9 @@
   h3 {
     @apply text-xl md:text-2xl font-bold;
   }
+  h4 {
+    @apply text-lg md:text-xl font-bold;
+  }
 }
 
 @layer components {
@@ -33,6 +36,6 @@
 
 @layer utilities {
   .container {
-    @apply w-full max-w-6xl mx-auto px-4;
+    @apply w-full max-w-6xl mx-auto;
   }
 }
