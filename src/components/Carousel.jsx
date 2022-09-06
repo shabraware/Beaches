@@ -19,14 +19,12 @@ const Carousel = () => {
     setCurrentIndex((currentIndex) => {
       return (currentIndex + 1) % CAROUSEL_DATA.length;
     });
-    console.log(currentIndex);
   };
   const decrementIndex = () => {
     console.log(currentIndex);
     setCurrentIndex((currentIndex) => {
       return currentIndex === 0 ? CAROUSEL_DATA.length - 1 : currentIndex - 1;
     });
-    console.log(currentIndex);
   };
   return (
     <section className='container px-4 my-12 h-3/4 relative'>
