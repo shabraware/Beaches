@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Destinations from './components/Destinations';
 import Search from './components/Search';
+import Selections from './components/Selections';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Hero />
       <Destinations />
       <Search />
+      <Selections />
     </>
   );
 };
