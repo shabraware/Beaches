@@ -44,6 +44,9 @@ $ npm run build
 - **ReactJS**
 - **TailwindCSS**
 
+## 🎥 Demo Video
+https://user-images.githubusercontent.com/62210671/188684953-6414d2f9-3c7c-436d-a874-9b66b5b78c79.mp4
+
 ## 📷 Responsiveness
 
 - ### Desktop Screen
